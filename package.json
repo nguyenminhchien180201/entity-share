@@ -1,8 +1,9 @@
 {
   "name": "share-entity",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "author": "",
+  "main": "dist/main.js",
   "private": false,
   "license": "UNLICENSED",
   "scripts": {
@@ -24,7 +25,8 @@
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "typeorm": "^0.3.16"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
